@@ -1,0 +1,1 @@
+document.getElementById('form').addEventListener('submit',e=>{e.preventDefault();document.getElementById('msg').textContent="Thanks. You're on the list.";document.getElementById('msg').style.color="#c8ff54";e.target.querySelector('button').textContent="You're in ✓";e.target.querySelector('input').disabled=true;});
